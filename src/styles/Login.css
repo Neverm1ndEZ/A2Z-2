@@ -1,0 +1,65 @@
+.form-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 1rem;
+	padding: 10rem;
+	gap: 10px;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.login-form label {
+	text-align: left;
+	padding: 0.25rem 0;
+}
+
+.login-form input {
+	margin: 0.5rem 0;
+	padding: 1rem;
+	border: 1px solid black;
+	border-radius: 13px;
+}
+
+.submit-btn {
+	border: 1px solid black;
+	background-color: rgb(72, 72, 171);
+	padding: 15px;
+	border-radius: 15px;
+	cursor: pointer;
+	color: white;
+	width: 17rem;
+}
+
+.link-btn {
+	border: none;
+	background: none;
+	text-decoration: underline;
+	cursor: pointer;
+	margin: 10px 0 0 5px;
+	padding: 0;
+	text-align: left;
+}
+
+.catalogue-btn {
+	text-decoration: none;
+	color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+	.form-container {
+		padding: 15rem 0;
+		overflow-y: hidden;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.form-container {
+		padding: 15rem 0;
+	}
+}
